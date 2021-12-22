@@ -8,17 +8,18 @@ Original file is located at
 """
 import add
 import div
+import sub
 a= int(input("Enter the first number:"))        
 b= int(input("Enter the second number:"))
 
 c= int(input("Enter your choice 1.Add 2.Subtract 3.Multiply 4.Divide:"))
 if c==1:
-  add(a,b)
+  add.add(a,b)
 elif c==2:
-  sub(a,b)
+  sub.sub(a,b)
 elif c==3:  
   mul(a,b)
 elif c==4:
-  divi(a,b)
+  div.divi(a,b)
 else:
   print("Enter valid choice number")
