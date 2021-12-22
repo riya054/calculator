@@ -9,6 +9,7 @@ Original file is located at
 import add
 import div
 import sub
+import mul
 a= int(input("Enter the first number:"))        
 b= int(input("Enter the second number:"))
 
@@ -18,7 +19,7 @@ if c==1:
 elif c==2:
   sub.sub(a,b)
 elif c==3:  
-  mul(a,b)
+  mul.mul(a,b)
 elif c==4:
   div.divi(a,b)
 else:
